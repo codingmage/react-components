@@ -50,11 +50,16 @@ export default function Accordion () {
 								<div className="content">
 									{item.answer}
 								</div> )
-							: selected === item.id && 
+							: selected === item.id && (
 								<div className="content">
 									{item.answer}
 								</div> 
-						}
+							)}
+						{/* selected === item.id || multiple.indexOf(item.id) !== -1 ? (
+								<div className="content">
+									{item.answer}
+								</div> 
+						) : null */}
 					</div>
 				)) 
 
