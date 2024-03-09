@@ -40,7 +40,8 @@ export default function RandomColor () {
 	return (
 		<div style={{
 			background: color,
-			width: "50vw"
+			width: "50vw",
+			border: "0.1rem solid black"
 		}}>
 			<div style={{
 				display: "flex",

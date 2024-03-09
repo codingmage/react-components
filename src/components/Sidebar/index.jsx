@@ -15,6 +15,11 @@ export default function Sidebar() {
                         Random Color Generator
 					</Link>
 				</li>
+				<li>
+					<Link to={"/star_rating"}>
+						Star Rating
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
