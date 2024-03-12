@@ -4,9 +4,11 @@
 
 main {
   width: 80vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 18vw;
 }
 
 a {

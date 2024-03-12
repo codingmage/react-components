@@ -6,7 +6,7 @@ export default function ImageSlider({url, limit = 5, page = 1}) {
 
 
 	const [images, setImages] = useState([])
-	const [currentSlide, setCurrentSlide] = useState()
+	const [currentSlide, setCurrentSlide] = useState(0)
 	const [errorMessage, setErrorMessage] = useState(null)
 	const [loading, setLoading] = useState(false)
 

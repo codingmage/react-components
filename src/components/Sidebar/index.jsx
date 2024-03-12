@@ -25,6 +25,11 @@ export default function Sidebar() {
 						Image Slider
 					</Link>
 				</li>
+				<li>
+					<Link to={"/load_more_data"}>
+						Load More Data
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
