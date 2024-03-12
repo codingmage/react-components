@@ -20,6 +20,11 @@ export default function Sidebar() {
 						Star Rating
 					</Link>
 				</li>
+				<li>
+					<Link to={"/image_slider"}>
+						Image Slider
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
