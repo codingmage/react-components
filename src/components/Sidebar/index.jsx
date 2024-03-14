@@ -30,6 +30,11 @@ export default function Sidebar() {
 						Load More Data
 					</Link>
 				</li>
+				<li>
+					<Link to={"/tree_view"}>
+						Tree View
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
