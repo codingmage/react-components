@@ -35,6 +35,11 @@ export default function Sidebar() {
 						Tree View
 					</Link>
 				</li>
+				<li>
+					<Link to={"/qr_code_generator"}>
+						QR Code Generator
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)

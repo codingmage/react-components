@@ -8,6 +8,7 @@ import ImageSlider from "./components/Image-Slider"
 import LoadMoreData from "./components/Load-More-Data"
 import TreeView from "./components/Tree-View"
 import menus from "./components/Tree-View/data"
+import QRCodeGenerator from "./components/QR-Code-Generator"
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 					<Route path="image_slider" element={<ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} page={"1"} />} />
 					<Route path="load_more_data" element={<LoadMoreData />} />
 					<Route path="tree_view" element={<TreeView menus={menus} />} />
+					<Route path="qr_code_generator" element={<QRCodeGenerator />} />
 				</Routes>
 			</main>
 			
