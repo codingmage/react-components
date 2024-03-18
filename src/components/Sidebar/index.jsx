@@ -40,6 +40,11 @@ export default function Sidebar() {
 						QR Code Generator
 					</Link>
 				</li>
+				<li>
+					<Link to={"/theme_toggle"}>
+						Light/Dark Mode
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
