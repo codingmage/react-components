@@ -10,6 +10,7 @@ import TreeView from "./components/Tree-View"
 import menus from "./components/Tree-View/data"
 import QRCodeGenerator from "./components/QR-Code-Generator"
 import ModeSwitch from "./components/Light-Dark-Mode"
+import ScrollIndicator from "./components/Scroll-Indicator"
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 					<Route path="tree_view" element={<TreeView menus={menus} />} />
 					<Route path="qr_code_generator" element={<QRCodeGenerator />} />
 					<Route path="theme_toggle" element={<ModeSwitch />} />
+					<Route path="scroll_indicator" element={<ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />} />
 				</Routes>
 			</main>
 			

@@ -45,6 +45,11 @@ export default function Sidebar() {
 						Light/Dark Mode
 					</Link>
 				</li>
+				<li>
+					<Link to={"/scroll_indicator"}>
+						Scroll Indicator
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
