@@ -50,6 +50,11 @@ export default function Sidebar() {
 						Scroll Indicator
 					</Link>
 				</li>
+				<li>
+					<Link to={"/custom_tabs"}>
+						Custom Tabs
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
