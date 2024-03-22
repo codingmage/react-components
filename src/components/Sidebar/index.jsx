@@ -55,6 +55,11 @@ export default function Sidebar() {
 						Custom Tabs
 					</Link>
 				</li>
+				<li>
+					<Link to={"/modal"}>
+						Modal Popup
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)

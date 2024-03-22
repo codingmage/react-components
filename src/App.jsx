@@ -12,6 +12,7 @@ import QRCodeGenerator from "./components/QR-Code-Generator"
 import ModeSwitch from "./components/Light-Dark-Mode"
 import ScrollIndicator from "./components/Scroll-Indicator"
 import TabTest from "./components/Custom-Tabs"
+import ModalTest from "./components/Custom-Modal_Popup"
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 					<Route path="theme_toggle" element={<ModeSwitch />} />
 					<Route path="scroll_indicator" element={<ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />} />
 					<Route path="custom_tabs" element={<TabTest />} />
+					<Route path="modal" element={<ModalTest />} />
 				</Routes>
 			</main>
 			
