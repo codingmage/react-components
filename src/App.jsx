@@ -13,6 +13,7 @@ import ModeSwitch from "./components/Light-Dark-Mode"
 import ScrollIndicator from "./components/Scroll-Indicator"
 import TabTest from "./components/Custom-Tabs"
 import ModalTest from "./components/Custom-Modal_Popup"
+import GithubProfileFinder from "./components/Github-Profile-Finder"
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 					<Route path="scroll_indicator" element={<ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />} />
 					<Route path="custom_tabs" element={<TabTest />} />
 					<Route path="modal" element={<ModalTest />} />
+					<Route path="github_finder" element={<GithubProfileFinder />} />
 				</Routes>
 			</main>
 			

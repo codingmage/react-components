@@ -60,6 +60,11 @@ export default function Sidebar() {
 						Modal Popup
 					</Link>
 				</li>
+				<li>
+					<Link to={"/github_finder"}>
+						Github Profile Finder
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
