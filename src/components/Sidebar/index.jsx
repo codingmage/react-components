@@ -65,6 +65,11 @@ export default function Sidebar() {
 						Github Profile Finder
 					</Link>
 				</li>
+				<li>
+					<Link to={"/search_autocomplete"}>
+						Search Autocomplete
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)

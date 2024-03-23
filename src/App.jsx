@@ -14,6 +14,7 @@ import ScrollIndicator from "./components/Scroll-Indicator"
 import TabTest from "./components/Custom-Tabs"
 import ModalTest from "./components/Custom-Modal_Popup"
 import GithubProfileFinder from "./components/Github-Profile-Finder"
+import SearchAutocomplete from "./components/Search-Autocomplete"
 
 function App() {
 	return (
@@ -33,6 +34,7 @@ function App() {
 					<Route path="custom_tabs" element={<TabTest />} />
 					<Route path="modal" element={<ModalTest />} />
 					<Route path="github_finder" element={<GithubProfileFinder />} />
+					<Route path="search_autocomplete" element={<SearchAutocomplete />} />
 				</Routes>
 			</main>
 			
