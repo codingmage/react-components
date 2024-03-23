@@ -60,6 +60,11 @@ export default function SearchAutocomplete() {
 
 	return (
 		<div className="search-autocomplete-container">
+			{
+				error 
+					? <h1>Error: {error}</h1>
+					: null
+			}
 
 			{
 				loading 
