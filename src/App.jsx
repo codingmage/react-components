@@ -15,6 +15,7 @@ import TabTest from "./components/Custom-Tabs"
 import ModalTest from "./components/Custom-Modal_Popup"
 import GithubProfileFinder from "./components/Github-Profile-Finder"
 import SearchAutocomplete from "./components/Search-Autocomplete"
+import TicTacToe from "./components/Tic-Tac-Toe"
 
 function App() {
 	return (
@@ -35,6 +36,7 @@ function App() {
 					<Route path="modal" element={<ModalTest />} />
 					<Route path="github_finder" element={<GithubProfileFinder />} />
 					<Route path="search_autocomplete" element={<SearchAutocomplete />} />
+					<Route path="tictactoe" element={<TicTacToe />} />
 				</Routes>
 			</main>
 			

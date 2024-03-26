@@ -70,6 +70,11 @@ export default function Sidebar() {
 						Search Autocomplete
 					</Link>
 				</li>
+				<li>
+					<Link to={"/tictactoe"}>
+						Tic Tac Toe
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
