@@ -75,6 +75,11 @@ export default function Sidebar() {
 						Tic Tac Toe
 					</Link>
 				</li>
+				<li>
+					<Link to={"/feature-flag"}>
+						Feature Flag
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
