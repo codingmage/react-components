@@ -18,6 +18,7 @@ import SearchAutocomplete from "./components/Search-Autocomplete"
 import TicTacToe from "./components/Tic-Tac-Toe"
 import FeatureFlagGlobalState from "./components/Feature-Flag/context"
 import FeatureFlags from "./components/Feature-Flag"
+import UseFetchHookTest from "./components/use-Fetch/test"
 
 function App() {
 	return (
@@ -40,6 +41,7 @@ function App() {
 					<Route path="search_autocomplete" element={<SearchAutocomplete />} />
 					<Route path="tictactoe" element={<TicTacToe />} />
 					<Route path="feature-flag" element={<FeatureFlagGlobalState><FeatureFlags /></FeatureFlagGlobalState>} />
+					<Route path="custom-fetch-hook" element={<UseFetchHookTest />} />
 				</Routes>
 			</main>
 			

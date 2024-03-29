@@ -80,6 +80,11 @@ export default function Sidebar() {
 						Feature Flag
 					</Link>
 				</li>
+				<li>
+					<Link to={"/custom-fetch-hook"}>
+						useFetch Custom Hook
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
