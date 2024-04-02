@@ -2,7 +2,7 @@ import useFetch from "."
 
 export default function UseFetchHookTest() {
 
-	const {data, error, pending} = useFetch("https://dummyjson.com/products", {})
+	const {data, error, pending} = useFetch("https://dummyjson.com/products?limit=10", {})
 
 	console.log(data, error, pending)
 

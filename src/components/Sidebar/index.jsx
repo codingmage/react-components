@@ -85,6 +85,11 @@ export default function Sidebar() {
 						useFetch Custom Hook
 					</Link>
 				</li>
+				<li>
+					<Link to={"/use-outside-click"}>
+						UseOnClickOutside
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)

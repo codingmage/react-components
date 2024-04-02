@@ -19,6 +19,7 @@ import TicTacToe from "./components/Tic-Tac-Toe"
 import FeatureFlagGlobalState from "./components/Feature-Flag/context"
 import FeatureFlags from "./components/Feature-Flag"
 import UseFetchHookTest from "./components/use-Fetch/test"
+import UseOnClickOutsideTest from "./components/use-Outside-Click/test"
 
 function App() {
 	return (
@@ -42,6 +43,7 @@ function App() {
 					<Route path="tictactoe" element={<TicTacToe />} />
 					<Route path="feature-flag" element={<FeatureFlagGlobalState><FeatureFlags /></FeatureFlagGlobalState>} />
 					<Route path="custom-fetch-hook" element={<UseFetchHookTest />} />
+					<Route path="/use-outside-click" element={<UseOnClickOutsideTest />} />
 				</Routes>
 			</main>
 			
