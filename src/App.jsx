@@ -20,6 +20,7 @@ import FeatureFlagGlobalState from "./components/Feature-Flag/context"
 import FeatureFlags from "./components/Feature-Flag"
 import UseFetchHookTest from "./components/use-Fetch/test"
 import UseOnClickOutsideTest from "./components/use-Outside-Click/test"
+import UseWindowResizeTest from "./components/use-Window-Resize/test"
 
 function App() {
 	return (
@@ -44,6 +45,7 @@ function App() {
 					<Route path="feature-flag" element={<FeatureFlagGlobalState><FeatureFlags /></FeatureFlagGlobalState>} />
 					<Route path="custom-fetch-hook" element={<UseFetchHookTest />} />
 					<Route path="/use-outside-click" element={<UseOnClickOutsideTest />} />
+					<Route path="/use-window-resize" element={<UseWindowResizeTest />} />
 				</Routes>
 			</main>
 			

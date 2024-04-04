@@ -90,6 +90,11 @@ export default function Sidebar() {
 						UseOnClickOutside
 					</Link>
 				</li>
+				<li>
+					<Link to={"/use-window-resize"}>
+						useWindowResizeHook
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
