@@ -95,6 +95,11 @@ export default function Sidebar() {
 						useWindowResizeHook
 					</Link>
 				</li>
+				<li>
+					<Link to={"/scroll-to-top-bottom"}>
+						Scroll to Top and Bottom
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)

@@ -21,6 +21,7 @@ import FeatureFlags from "./components/Feature-Flag"
 import UseFetchHookTest from "./components/use-Fetch/test"
 import UseOnClickOutsideTest from "./components/use-Outside-Click/test"
 import UseWindowResizeTest from "./components/use-Window-Resize/test"
+import ScrollToTopAndBottom from "./components/Scroll-to-Top-Bottom"
 
 function App() {
 	return (
@@ -46,6 +47,7 @@ function App() {
 					<Route path="custom-fetch-hook" element={<UseFetchHookTest />} />
 					<Route path="/use-outside-click" element={<UseOnClickOutsideTest />} />
 					<Route path="/use-window-resize" element={<UseWindowResizeTest />} />
+					<Route path="/scroll-to-top-bottom" element={<ScrollToTopAndBottom />} />
 				</Routes>
 			</main>
 			
