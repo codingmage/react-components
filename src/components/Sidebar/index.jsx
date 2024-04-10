@@ -100,6 +100,11 @@ export default function Sidebar() {
 						Scroll to Top and Bottom
 					</Link>
 				</li>
+				<li>
+					<Link to={"/scroll-to-section"}>
+						Scroll to Section
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
